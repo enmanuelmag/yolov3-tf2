@@ -27,6 +27,7 @@ def main(_argv):
     logging.info('weights loaded')
 
     img = np.random.random((1, 320, 320, 3)).astype(np.float32)
+    logging.info('image created')
     output = yolo(img)
     logging.info('sanity check passed')
 

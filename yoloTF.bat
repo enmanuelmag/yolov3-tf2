@@ -1,0 +1,1 @@
+cd C:\Users\Emanuel\Documents\yolov3-tf2 & conda activate yolov3-tf2-gpu

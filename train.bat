@@ -1,0 +1,1 @@
+python train.py --dataset ./data/voc2012_train.tfrecord --val_dataset ./data/voc2012_val.tfrecord --classes ./data/voc2012.names --num_classes 20 	--mode fit --transfer none --batch_size 6 --epochs 10
